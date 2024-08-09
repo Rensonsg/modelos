@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>lista de Productos</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+    <ul>
+        {%for producto in productos%}  
+        <li>{{producto.nombre}}- {{producto.email}} -{{producto.telefono}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
